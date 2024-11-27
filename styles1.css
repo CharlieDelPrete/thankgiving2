@@ -1,0 +1,99 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f7e4c6;
+    color: #5c3d2e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.navbar {
+    background-color: #8B4513; 
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+header {
+    background-color: #d2691e;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-gap: 30px;
+}
+
+
+.food-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.food-item:hover {
+    transform: scale(1.03); 
+}
+
+.food-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 4px solid #c85c5c;
+}
+
+.food-item h2 {
+    font-size: 1.8rem;
+    color: #c85c5c;
+    margin: 20px;
+    text-align: center;
+}
+
+.food-item p {
+    font-size: 1.1rem;
+    color: #555;
+    padding: 0 20px 20px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+
+.food-item img:hover {
+    filter: brightness(0.9);
+}
